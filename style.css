@@ -1,0 +1,40 @@
+.container {
+    margin: 0 auto;
+    max-width: 999px;
+    width: 100%;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+body
+{
+    color: #212529;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+h1, h2
+{
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+footer
+{
+    background-color: rgba(0, 0, 0, .75);
+    color: rgba(255,255,255,.8);
+    padding: 10px;
+}
