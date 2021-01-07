@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 .container {
     margin: 0 auto;
     max-width: 999px;
@@ -13,6 +15,7 @@ body
 {
     color: #212529;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1
@@ -30,6 +33,12 @@ h1, h2
 {
     font-weight: 600;
     line-height: 1.2;
+}
+
+header {
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 0 0 0.55px;
 }
 
 footer
