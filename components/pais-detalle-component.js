@@ -69,8 +69,4 @@ export class PaisDetalleComponent extends HTMLElement
         });
     }
 
-    disconnectedCallback()
-    {
-        this.shadowRoot.querySelector('button').removeEventListener('click');
-    }
-}
+} 
