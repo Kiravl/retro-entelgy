@@ -17,17 +17,25 @@ export class PaisComponent extends HTMLElement
         template.innerHTML = `
             <style>
                 .card {
+                    border-color: #c8c7cc;
+                    border-style: solid;
+                    border-width: 0px 0px 0.55px 0px;
                     display: flex;
                     justify-content: space-between;
+                    padding-bottom: 10px;
+                    padding-top: 20px;
                 }
 
                 .card-container {
+                    margin: 10px 8px 10px 0px;
                     text-align: right;
                 }
 
                 .card-img {
-                    width: 250px;
-                    object-fit: contain;
+                    border-radius: 50%;
+                    height: 165px;
+                    object-fit: cover;
+                    width: 165px;
                 }
             </style>
             <article class="card">
